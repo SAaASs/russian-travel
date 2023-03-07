@@ -1,0 +1,16 @@
+.place__website {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    font-family: Inter, Arial, sans-serif;
+}
+@media (max-width: 767px) {
+    .place__website {
+        height: auto;
+    }
+}
+@media (max-width: 320px) {
+    .place__website {
+        margin-left: 16px;
+    }
+}
